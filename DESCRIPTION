@@ -2,7 +2,7 @@ Package: pubdatasets
 Title: A collection of publicly available datasets
 Version: 0.0.0.9000
 Authors@R: 
-    person("Edwin", "Leuven", , "edwin.leuven@econ.ui.no", role = c("cre"))
+    person("Edwin", "Leuven", , "edwin.leuven@econ.uio.no", role = c("cre"))
 Description: A collection of publicly available datasets.
 License: MIT + file LICENSE
 Encoding: UTF-8
