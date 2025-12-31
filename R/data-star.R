@@ -1,0 +1,88 @@
+#' Tennessee STAR (Project STAR): Student/Teacher Achievement Ratio experiment
+#'
+#' Public-use data from Project STAR, a randomized class-size experiment conducted
+#' in Tennessee in the late 1980s. The dataset is stored in wide format, with
+#' grade-specific variables for kindergarten through 3rd grade. In this package,
+#' the object is named \code{star}.
+#'
+#' @format A data frame with 11,598 observations on 47 variables.
+#' The dataset is wide: grade-specific variables use suffixes \code{k}, \code{1},
+#' \code{2}, and \code{3} (kindergarten through 3rd grade).
+#'
+#' \describe{
+#'   \item{gender}{Student gender (factor).}
+#'   \item{ethnicity}{Student ethnicity (factor).}
+#'   \item{birth}{Student birth quarter (class \code{yearqtr}).}
+#'
+#'   \item{stark}{STAR class type in kindergarten (factor; may be \code{NA} if not attended).}
+#'   \item{star1}{STAR class type in 1st grade (factor; may be \code{NA} if not attended).}
+#'   \item{star2}{STAR class type in 2nd grade (factor; may be \code{NA} if not attended).}
+#'   \item{star3}{STAR class type in 3rd grade (factor; may be \code{NA} if not attended).}
+#'
+#'   \item{readk}{Reading scaled score in kindergarten.}
+#'   \item{read1}{Reading scaled score in 1st grade.}
+#'   \item{read2}{Reading scaled score in 2nd grade.}
+#'   \item{read3}{Reading scaled score in 3rd grade.}
+#'
+#'   \item{mathk}{Math scaled score in kindergarten.}
+#'   \item{math1}{Math scaled score in 1st grade.}
+#'   \item{math2}{Math scaled score in 2nd grade.}
+#'   \item{math3}{Math scaled score in 3rd grade.}
+#'
+#'   \item{lunchk}{Eligible for free lunch in kindergarten (factor).}
+#'   \item{lunch1}{Eligible for free lunch in 1st grade (factor).}
+#'   \item{lunch2}{Eligible for free lunch in 2nd grade (factor).}
+#'   \item{lunch3}{Eligible for free lunch in 3rd grade (factor).}
+#'
+#'   \item{schoolk}{School type in kindergarten (factor).}
+#'   \item{school1}{School type in 1st grade (factor).}
+#'   \item{school2}{School type in 2nd grade (factor).}
+#'   \item{school3}{School type in 3rd grade (factor).}
+#'
+#'   \item{degreek}{Teacher highest degree in kindergarten (factor).}
+#'   \item{degree1}{Teacher highest degree in 1st grade (factor).}
+#'   \item{degree2}{Teacher highest degree in 2nd grade (factor).}
+#'   \item{degree3}{Teacher highest degree in 3rd grade (factor).}
+#'
+#'   \item{ladderk}{Teacher career ladder level in kindergarten (factor).}
+#'   \item{ladder1}{Teacher career ladder level in 1st grade (factor).}
+#'   \item{ladder2}{Teacher career ladder level in 2nd grade (factor).}
+#'   \item{ladder3}{Teacher career ladder level in 3rd grade (factor).}
+#'
+#'   \item{experiencek}{Teacher total teaching experience (years) in kindergarten.}
+#'   \item{experience1}{Teacher total teaching experience (years) in 1st grade.}
+#'   \item{experience2}{Teacher total teaching experience (years) in 2nd grade.}
+#'   \item{experience3}{Teacher total teaching experience (years) in 3rd grade.}
+#'
+#'   \item{tethnicityk}{Teacher ethnicity in kindergarten (factor).}
+#'   \item{tethnicity1}{Teacher ethnicity in 1st grade (factor).}
+#'   \item{tethnicity2}{Teacher ethnicity in 2nd grade (factor).}
+#'   \item{tethnicity3}{Teacher ethnicity in 3rd grade (factor).}
+#'
+#'   \item{systemk}{School system ID in kindergarten (factor).}
+#'   \item{system1}{School system ID in 1st grade (factor).}
+#'   \item{system2}{School system ID in 2nd grade (factor).}
+#'   \item{system3}{School system ID in 3rd grade (factor).}
+#'
+#'   \item{schoolidk}{School ID in kindergarten (factor).}
+#'   \item{schoolid1}{School ID in 1st grade (factor).}
+#'   \item{schoolid2}{School ID in 2nd grade (factor).}
+#'   \item{schoolid3}{School ID in 3rd grade (factor).}
+#' }
+#'
+#' @details
+#' Project STAR randomly assigned students (and teachers) to class types beginning in
+#' kindergarten and followed them through 3rd grade. The data are provided in wide
+#' format; reshaping to long format is straightforward by stacking grade-specific
+#' variables.
+#'
+#' This package’s \code{star} object is sourced from \code{AER::STAR} and is included
+#' here as a convenience dataset.
+#'
+#' @source
+#' Distributed in the \code{AER} package as \code{STAR}; described as “Online complements
+#' to Stock and Watson (2007).”
+#'
+#' @references
+#' Stock, J.H. and Watson, M.W. (2007). \emph{Introduction to Econometrics}, 2nd ed.
+"star"
