@@ -85,4 +85,3 @@
 #'
 #' @references
 #' Stock, J.H. and Watson, M.W. (2007). \emph{Introduction to Econometrics}, 2nd ed.
-"star"
