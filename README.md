@@ -12,6 +12,16 @@ remotes::install_github("eleuven/pubdatasets")
 ## Data included
 
 - `star`: Project STAR (Tennessee class-size experiment), wide format with grade-specific variables (k, 1, 2, 3).
+- `caschool`: California school districts (Stock & Watson).
+- `cps92_12`, `cps18`, `CPS08_1perc`: CPS extracts.
+- `beertax`, `cigarettes`: alcohol/cigarette tax panels.
+- `hmda_sw`: Mortgage application data (HMDA subset).
+- `returns`: Returns panel.
+- `cardkrueger`: Fast-food minimum wage study.
+- `death`: Mortality DiD example.
+- `distance`: College distance / binary choice.
+- `gt_fuzzydata`: Fuzzy RD example data.
+- `webstar`: Web version of STAR wide file.
 
 ## Example
 
