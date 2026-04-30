@@ -13,7 +13,7 @@ remotes::install_github("eleuven/pubdatasets")
 
 - `star`: Project STAR (Tennessee class-size experiment), wide format with grade-specific variables (k, 1, 2, 3).
 - `caschool`: California school districts (Stock & Watson).
-- `cps92_12`, `cps18`, `CPS08_1perc`: CPS extracts.
+- `CPS1988`, `cps92_12`, `cps18`, `CPS08_1perc`: CPS extracts.
 - `beertax`, `cigarettes`: alcohol/cigarette tax panels.
 - `hmda_sw`: Mortgage application data (HMDA subset).
 - `returns`: Returns panel.
